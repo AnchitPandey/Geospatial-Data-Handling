@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+<Folder>
+<name>Library</name>
+
+<Placemark><name>Leavey</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282949,34.021869</coordinates></Point>
+</Placemark>
+<Placemark><name>VKC</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284002,34.021268</coordinates></Point>
+</Placemark>
+<Placemark><name>Science and Eng</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288802,34.019629</coordinates></Point>
+</Placemark>
+<Placemark><name>Wilson Dental</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28622,34.023981</coordinates></Point>
+</Placemark>
+<Placemark><name>Gerontology</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283726,34.02021</coordinates></Point>
+</Placemark>
+</Folder>
+
+
+<Folder>
+<name>Cafetaria</name>
+<Placemark><name>Fertitta</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282453,34.018725</coordinates></Point>
+</Placemark>
+<Placemark><name>Cammereli</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283861,34.019125</coordinates></Point>
+</Placemark>
+<Placemark><name>Literatea</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283316,34.020134</coordinates></Point>
+</Placemark>
+<Placemark><name>Starbucks</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282172,34.021682</coordinates></Point>
+</Placemark>
+<Placemark><name>Little Galen</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287094,34.022898</coordinates></Point>
+</Placemark>
+</Folder>
+
+
+<Folder>
+<name>USC Parks</name>
+<Placemark><name>EF Hutton</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285538,34.020909</coordinates></Point>
+</Placemark>
+<Placemark><name>Alumni Park</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284634,34.020433</coordinates></Point>
+</Placemark>
+<Placemark><name>McCarthy Quad</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283158,34.020940</coordinates></Point>
+</Placemark>
+<Placemark><name>Associates Pk.</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286012,34.021128</coordinates></Point>
+</Placemark>
+<Placemark><name>Founders Park</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284989,34.021487</coordinates></Point>
+</Placemark>
+</Folder>
+
+
+<!-- Convex hull -->
+
+  <Placemark>
+          <name>Convex Hull</name>
+        
+          <Polygon>
+       
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates> -118.282453,34.018725,0	
+                  -118.288802,34.019629,0
+				  -118.287094,34.022898,0
+				  -118.28622,34.023981,0
+                  -118.282172,34.021682,0
+                  -118.282453,34.018725,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+		  <Style> 
+  <PolyStyle>  
+   <color>#a00000ff</color>
+  <outline>0</outline>
+  </PolyStyle> 
+ </Style>
+ </Placemark>
+
+
+ <!-- LINES NOW -->
+ 
+ 
+
+ 
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.287094,34.022898,0 
+   -118.28622,34.023981,0
+  </coordinates>
+ </LineString>
+ 
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+   <width>3</width>
+  </LineStyle> 
+ </Style>
+</Placemark> 
+
+
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.287094,34.022898,0 
+   -118.286012,34.021128,0
+  </coordinates>
+ </LineString>
+ 
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+   <width>3</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+
+
+
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.287094,34.022898,0 
+   -118.285538,34.020909,0
+  </coordinates>
+ </LineString>
+ 
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+   <width>3</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.287094,34.022898,0 
+   -118.284989,34.021487,0
+  </coordinates>
+ </LineString>
+
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+   <width>3</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+
+
+</Document></kml>
