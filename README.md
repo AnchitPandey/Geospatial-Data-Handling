@@ -1,5 +1,5 @@
 # Geospatial-Data-Visualization
-## Visualization on Google Earth
+## Visualization of Convex hull, 4-Nearest Neighbors and Spirograph on Google Earth & ARCGIS
 
 Created KML file and added GPS coordinates of 12 points inside USC campus
 
