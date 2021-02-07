@@ -16,6 +16,8 @@ Wrote Java program to get coordinates of spirograph with a specified center and 
 
 ![spiro](https://user-images.githubusercontent.com/40236708/107159375-68179280-6944-11eb-8d5e-6815c2ed0fe8.JPG)
 
+![spiro_google_earth](https://user-images.githubusercontent.com/40236708/107159425-be84d100-6944-11eb-8380-2e33dfec0af2.JPG)
+
 
 
 
